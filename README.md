@@ -93,3 +93,23 @@ python predict.py --image path/to/image.jpg --model 1738440917.h5 --top_k 5 --ca
 
 ---
 
+## 📊 Results and Visualizations
+- **Training Accuracy:** 98.5%
+- **Validation Accuracy:** 96.2%
+- **Test Accuracy:** 95.9%
+
+Visual outputs:
+- Loss and accuracy curves
+- Top-K predictions with probabilities
+- Image + prediction visualization using `matplotlib`
+
+  ---
+
+## 📧 Contact
+
+For questions, collaborations, or opportunities, feel free to connect with me:
+
+👩‍💻 **Lina Abufaraha**  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/linaabufarha/)   
+📫 Email: linaabufarha1@gmail.com
+
