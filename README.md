@@ -54,3 +54,42 @@ The goal of this project is to:
 
 ---
 
+## 📁 Files in the Repository
+
+| File/Folder | Description |
+|-------------|-------------|
+| `Image_Classifier_Project.ipynb` | Jupyter Notebook with model training code |
+| `predict.py` | Script for classifying images from command line |
+| `label_map.json` | JSON file mapping class indices to names |
+| `test_images/` | Sample images for inference |
+| `1738440917.h5` | Saved model (HDF5 format) |
+
+---
+
+## 🚀 How to Run the Project
+
+### Prerequisites
+Install dependencies:
+```bash
+pip install tensorflow tensorflow-hub numpy pandas matplotlib
+```
+
+### Steps
+1. Clone the repo:
+```bash
+git clone <https://github.com/LinaAbufaraha/Flower_Image_Classifier----TensorFlow>
+cd <Create-Your-Own-Image-Classifier---TensorFlow>
+```
+
+2. Run the notebook:
+```bash
+jupyter notebook Image_Classifier_Project.ipynb
+```
+
+3. Predict using command line:
+```bash
+python predict.py --image path/to/image.jpg --model 1738440917.h5 --top_k 5 --category_names label_map.json
+```
+
+---
+
